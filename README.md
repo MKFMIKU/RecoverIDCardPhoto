@@ -32,3 +32,7 @@ Origin (With pattern)
 ## Final
 私有数据集
 Private dataset
+
+## Fun
+the dcgan generate some photo, the are virtual
+[Click me](demo/train_24_0787.png)
