@@ -14,6 +14,14 @@ In this project, I use dcgan and Adam optimizer, the first step is use dcgan as 
 
 在这个项目中，我使用了深度卷积生成对抗网络和 Adam 优化器，第一步训练 DCGAN 是它得到一个身份证照片生成器，第二部是使用 Adam 优化器来拟合一个合适的噪声，是得网络输出的照片和有网纹的照片 psnr 差异最小，最后得到的噪声输入到网络中得到的结果就是一个不带网纹的结果
 
+
+## Run
+which use flask to offer a Restful Api, just use below:
+
+```shell
+python server.py
+```
+
 ## Demo
 Origin (With pattern)
 
